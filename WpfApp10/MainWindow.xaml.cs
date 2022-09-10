@@ -62,8 +62,8 @@ namespace WpfApp10
             new Thread(() =>
             {
 
+                _find("C:\\Users");
                 _find("C:\\Windows");
-
 
             }).Start();
         }
